@@ -9,6 +9,7 @@ It leverages [GraphQL Code Generator](https://graphql-code-generator.com/) to en
 - Typesafe GraphQL with [graphql-codegen](https://graphql-code-generator.com/)
 - [ESLint](https://eslint.org/) with [TypeScript support](https://typescript-eslint.io/)
 - Styling with [styled-components](https://styled-components.com/)
+- Formatting with [prettier](https://prettier.io/)
 
 ## Setup
 
@@ -17,6 +18,8 @@ Install the Gatsby CLI
 ```bash
 yarn global add gatsby-cli
 ```
+
+or
 
 ```bash
 npm install -g gatsby-cli
@@ -30,37 +33,29 @@ gatsby new <PROJECT_NAME> https://github.com/oberonamsterdam/gatsby-starter-ober
 
 ## Usage
 
-Start a dev server
+Start
 
 ```bash
-yarn start
+npm start
 ```
 
 Create a production build
 
 ```bash
-yarn build
+npm run build
 ```
 
 Serve the production build locally
 
 ```bash
-yarn serve
+npm run serve
 ```
 
 Generate GraphQL type definitions
 
 ```bash
-yarn codegen
+npm run codegen
 ```
 
-# Query the GitHub GraphQL API
-
-By default, this starter adds the [GitHub GraphQL API](https://developer.github.com/v4/) as a source.
-This can be quite useful for personal sites or blogs to show off your projects.
-
-To connect with the GitHub API, you will need to add an environment variable.
-
-```bash
-cp .env.development.example .env.example
-```
+## Deploying
+todo
