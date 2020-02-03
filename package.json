@@ -1,0 +1,68 @@
+{
+    "name": "gatsby-starter-oberon",
+    "description": "A Gatsby starter with typesafe GraphQL using TypeScript and Oberon defaults",
+    "version": "0.1.0",
+    "author": "Oberon <devs@oberon.nl>",
+    "scripts": {
+        "build": "gatsby build",
+        "format": "prettier --write '{__mocks__,src,test}/**/*.{js,ts,tsx}'",
+        "lint": "eslint \"src/**/*.{js,ts,tsx}\"",
+        "typecheck": "tsc --project . --noEmit",
+        "start": "gatsby develop",
+        "serve": "gatsby serve",
+        "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\"",
+        "codegen": "graphql-codegen --config graphql-codegen.yml"
+    },
+    "dependencies": {
+        "gatsby": "^2.19.12",
+        "gatsby-image": "^2.2.40",
+        "gatsby-plugin-graphql-preview": "^2.1.0",
+        "gatsby-plugin-manifest": "^2.2.41",
+        "gatsby-plugin-offline": "^3.0.34",
+        "gatsby-plugin-react-helmet": "^3.1.22",
+        "gatsby-plugin-sharp": "^2.4.5",
+        "gatsby-plugin-styled-components": "^3.1.19",
+        "gatsby-plugin-typescript": "^2.1.27",
+        "gatsby-source-filesystem": "^2.1.48",
+        "gatsby-source-graphql": "^2.1.33",
+        "gatsby-transformer-sharp": "^2.3.14",
+        "graphql": "^14.6.0",
+        "graphql-tag": "^2.10.1",
+        "modern-normalize": "^0.6.0",
+        "react": "^16.12.0",
+        "react-dom": "^16.12.0",
+        "react-helmet": "^5.2.1",
+        "styled-components": "^5.0.0"
+    },
+    "devDependencies": {
+        "@graphql-codegen/cli": "^1.12.1",
+        "@graphql-codegen/introspection": "^1.12.1",
+        "@graphql-codegen/typescript": "^1.12.1",
+        "@graphql-codegen/typescript-operations": "^1.12.1",
+        "@types/node": "^13.7.0",
+        "@types/react": "^16.9.19",
+        "@types/react-dom": "^16.9.5",
+        "@types/react-helmet": "^5.0.15",
+        "@types/styled-components": "^4.4.2",
+        "babel-plugin-styled-components": "^1.10.7",
+        "eslint": "^6.8.0",
+        "eslint-config-oberon": "^2.0.0",
+        "husky": "^4.2.1",
+        "lint-staged": "^10.0.7",
+        "oberon-prettier-config": "^1.0.0",
+        "prettier": "^1.19.1",
+        "typescript": "^3.7.5",
+        "typescript-styled-plugin": "^0.15.0"
+    },
+    "keywords": [
+        "gatsby",
+        "typescript",
+        "graphql",
+        "oberon"
+    ],
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/oberonamsterdam/gatsby-starter-oberon"
+    }
+}

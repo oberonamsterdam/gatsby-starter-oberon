@@ -1,0 +1,40 @@
+{
+    "include": [
+        "./src/**/*",
+        "*.js",
+    ],
+    "compilerOptions": {
+        "target": "esnext",
+        "module": "commonjs",
+        "lib": [
+            "dom",
+            "es2017"
+        ],
+        "sourceMap": true,
+        "allowJs": true,
+        "jsx": "preserve",
+        "moduleResolution": "node",
+        "forceConsistentCasingInFileNames": true,
+        "noImplicitReturns": true,
+        "noImplicitAny": true,
+        "rootDirs": [
+            "src"
+        ],
+        "noImplicitThis": true,
+        "strictNullChecks": true,
+        "suppressImplicitAnyIndexErrors": false,
+        "noUnusedLocals": true,
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "resolveJsonModule": true,
+        "skipLibCheck": true,
+        "strict": true,
+        "isolatedModules": true,
+        "noEmit": true,
+        "plugins": [
+            {
+                "name": "typescript-styled-plugin"
+            }
+        ]
+    }
+}

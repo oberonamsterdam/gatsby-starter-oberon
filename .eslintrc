@@ -1,0 +1,9 @@
+{
+    "extends": [
+        "oberon"
+    ],
+    "rules": {
+        // overwrite the styled-components/macro requirement as its not needed with gatsby thanks to its gatsby plugin
+        "no-restricted-imports": "off"
+    }
+}
