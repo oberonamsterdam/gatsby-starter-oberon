@@ -31,6 +31,14 @@ Create a new site
 gatsby new <PROJECT_NAME> https://github.com/oberonamsterdam/gatsby-starter-oberon
 ```
 
+Husky
+
+Because of [this](https://github.com/gatsbyjs/gatsby/issues/19589) we need to install husky manually after running `gatsby new`
+
+```
+npm install husky --save-dev
+```
+
 ## Usage
 
 
