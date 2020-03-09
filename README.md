@@ -33,6 +33,11 @@ gatsby new <PROJECT_NAME> https://github.com/oberonamsterdam/gatsby-starter-ober
 
 ## Usage
 
+
+### Configure env
+Copy .env.dist to .env. \
+Modify if necessary.
+
 Start
 
 ```bash
@@ -58,4 +63,4 @@ npm run codegen
 ```
 
 ## Deploying
-todo
+For specific Oberon deployment steps you can visit the [papyrs guide](https://oberon.papyrs.com/frontend-devops)
