@@ -15,7 +15,7 @@ node_modules/
 .eslintcache
 
 # dotenv environment variables file
-.env.development
+.env
 
 # gatsby files
 .cache/
@@ -24,3 +24,10 @@ public
 # GraphQL generated
 /graphql.json
 /src/graphql.ts
+
+# IDE files
+/.vscode
+/.idea
+
+# misc
+.DS_STORE

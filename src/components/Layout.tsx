@@ -9,7 +9,7 @@ import { graphql, useStaticQuery } from 'gatsby';
 import React, { ReactNode } from 'react';
 import GlobalStyles from '../globalStyles';
 import { SiteQuery } from '../graphql';
-import Header from './header';
+import Header from './Header';
 import 'modern-normalize';
 
 interface LayoutProps {
